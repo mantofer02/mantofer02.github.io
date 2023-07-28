@@ -10,4 +10,4 @@ Adapted from [SampurnaC](https://github.com/SampurnaC/portfolio_website_fcc/tree
 - [Font Awesome 5](https://fontawesome.com/)
 - [google map](https://www.embed-map.com/)
 
-This is the [live demo]() of the project .
+This is the [live demo](https://mantofer02.github.io/) of the project .

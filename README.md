@@ -1,6 +1,5 @@
 # HTML, CSS, JavaScript and Bootstrap 5 Portfolio Website
 
-=======
 Adapted from [SampurnaC](https://github.com/SampurnaC/portfolio_website_fcc/tree/master). Plan to expand so portafolio may be subject to change
 
 ## Tools used

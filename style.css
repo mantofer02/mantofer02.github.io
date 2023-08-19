@@ -1,6 +1,22 @@
-/* display background color black on navbar scroll */
+/* Color Pallete */
+/* https://colorhunt.co/palette/f6f4eb91c8e4749bc24682a9 */
+/* https://colorhunt.co/palette/f6f5f5d3e0ea1687a7276678 */
+
 .navbarScroll.navbarDark {
-  background-color: black;
+  background-color: #276678;
+}
+
+h1 {
+  font-family: "Aleo", sans-serif;
+  font-size: 2.5rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.content {
+  background-color: #d3e0ea;
 }
 
 .hero-image {
@@ -30,7 +46,7 @@
 .hero-title {
   font-family: "Montserrat", sans-serif;
   font-size: 3.5rem;
-  color: white;
+  color: #f6f4eb;
 }
 
 .hero-description {
@@ -56,11 +72,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-}
-
-.about-title {
-  font-family: "Aleo", sans-serif;
-  font-size: 2.5rem;
 }
 
 #contact {
@@ -92,22 +103,55 @@
 }
 
 /* social media icons styling */
-.social-icons {
-  font-size: 28px;
-  /* cursor: pointer; */
-}
-.fa-facebook:hover,
-.fa-instagram:hover,
-.fa-twitter:hover,
-.fa-linkedin:hover,
-.fa-twitch:hover {
-  color: #008000;
-}
-.fab {
-  color: #000000;
-}
+
 /* footer styling */
 #footer {
   background-color: #808080;
   text-align: center;
+}
+
+.contact-card {
+  padding: 1rem;
+  background: #276678;
+  margin: 0px 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.contact-card p {
+  color: aliceblue;
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: default;
+}
+
+.contact-icon {
+  color: black;
+  font-size: 2rem;
+
+  background-color: #d3e0ea;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 5rem;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
 }

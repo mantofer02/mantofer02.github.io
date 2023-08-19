@@ -113,11 +113,7 @@ a:link {
 .contact-card {
   padding: 1rem;
   background: #276678;
-<<<<<<< HEAD
-  margin: 0px 1rem;
-=======
   margin: 0px 2rem;
->>>>>>> develop
   display: flex;
   flex-direction: column;
   align-items: center;

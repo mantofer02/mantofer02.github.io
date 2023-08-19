@@ -1,17 +1,34 @@
-/* display background color black on navbar scroll */
+/* Color Pallete */
+/* https://colorhunt.co/palette/f6f4eb91c8e4749bc24682a9 */
+/* https://colorhunt.co/palette/f6f5f5d3e0ea1687a7276678 */
+
 .navbarScroll.navbarDark {
-  background-color: black;
+  background-color: #276678;
 }
 
-/* hero background image */
-.bgimage {
+h1 {
+  font-family: "Aleo", sans-serif;
+  font-size: 2.5rem;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.content {
+  background-color: #d3e0ea;
+}
+
+.hero-image {
   position: relative;
-  height: 100vh;
+  height: 80vh;
   background: url("images/heroImage.jpeg");
   background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
 }
 
-.bgimage::before {
+.hero-image::before {
   content: "";
   position: absolute;
   top: 0;
@@ -23,15 +40,31 @@
     0,
     0,
     0.7
-  ); /* Adjust the last value (0.5) to change the darkness level */
+  ); /* Adjust the alpha value to control the darkness */
 }
-/* text css above hero image*/
-.hero_title {
-  font-size: 4.5rem;
+
+.hero-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  color: #f6f4eb;
 }
-.hero_desc {
-  font-size: 2rem;
+
+.hero-description {
+  font-size: 1.3rem;
+  color: white;
+  white-space: normal;
+  padding-left: 10%;
+  padding-right: 10%;
 }
+
+/* hero background image */
+.bgimage {
+  position: relative;
+  height: 80vh;
+  background: url("images/heroImage.jpeg");
+  background-size: cover;
+}
+
 .hero-text {
   text-align: center;
   position: absolute;
@@ -41,11 +74,6 @@
   color: white;
 }
 
-/* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
 #contact {
   padding-bottom: 4rem;
 }
@@ -75,22 +103,55 @@
 }
 
 /* social media icons styling */
-.social-icons {
-  font-size: 28px;
-  /* cursor: pointer; */
-}
-.fa-facebook:hover,
-.fa-instagram:hover,
-.fa-twitter:hover,
-.fa-linkedin:hover,
-.fa-twitch:hover {
-  color: #008000;
-}
-.fab {
-  color: #000000;
-}
+
 /* footer styling */
 #footer {
   background-color: #808080;
   text-align: center;
+}
+
+.contact-card {
+  padding: 1rem;
+  background: #276678;
+  margin: 0px 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.contact-card p {
+  color: aliceblue;
+  font-size: 1rem;
+  margin-top: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  cursor: default;
+}
+
+.contact-icon {
+  color: black;
+  font-size: 2rem;
+
+  background-color: #d3e0ea;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 5rem;
+}
+
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
 }

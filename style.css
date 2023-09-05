@@ -111,27 +111,29 @@ a:link {
 }
 
 .contact-card {
-  padding: 1rem;
+  padding: 0.7rem;
   background: #276678;
-  margin: 0px 2rem;
+  margin: 0px 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 20px;
+  /* Find a way to fix it */
+  width: 20rem !important;
 }
 
 .contact-card p {
   color: aliceblue;
-  font-size: 1rem;
-  margin-top: 0.75rem;
-  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  margin-top: 0.4rem;
+  font-family: "Aleo", sans-serif;
   cursor: default;
 }
 
+/* Use this animation on other buttons */
 .contact-icon {
   color: black;
   font-size: 2rem;
-
   background-color: #d3e0ea;
   text-align: center;
   width: 4rem;
@@ -141,6 +143,13 @@ a:link {
   align-items: center;
   border-radius: 50%;
   cursor: pointer;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.contact-icon:hover {
+  color: #d3e0ea;
+  background-color: black;
+  transform: scale(1.1);
 }
 
 .footer {
